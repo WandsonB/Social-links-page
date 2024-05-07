@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/static/Inter-Regular.ttf) format('truetype'), url(./assets/fonts/static/Inter-Bold.ttf) format('truetype'), url(./assets/fonts/static/Inter-SemiBold.ttf) format('truetype'), url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --pear: #B9DF43;
+    --jet: #333333;
+    --light_dark: #1F1F1F;
+    --lima: #C5F630;
+    --desc: #CBCBCB;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    color: var(--green_lima);
+  }
+
+body{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(./design/active-states.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* background-color: var(--light_dark); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    /* background-color: var(--jet); */
+    width: 512px;
+    height: 820px;
+    border-radius: 20px;
+
+}
+
+.main .avatar{
+    width: 100%;
+    height: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.main .avatar img{
+    border-radius: 100px;
+    width: 120px;
+}
+
+.main .infos{
+    width: 100%;
+    height: 17%;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .infos > h1 {
+    font-weight: normal;
+    font-size: 33px;
+    margin-top: 39px;
+}
+
+.main .infos > p {
+    font-size: 19.2px;
+    font-weight: 900;
+    color: var(--pear);
+    margin-top: 10px;
+}
+
+.main .description{
+    color: var(--desc);
+    width: 100%;
+    height: 4%;
+    font-size: 19px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
