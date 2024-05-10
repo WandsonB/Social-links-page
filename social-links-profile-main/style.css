@@ -104,7 +104,7 @@ body{
     margin-top: 18px;
     background-color: var(--jet);
     border-radius: 13px;
-    width: 406px;
+    width: 90%;
     height: 65px;
     outline: none;
     border: none;
@@ -117,4 +117,20 @@ body{
 .linksButtons .links:hover{
     background-color: var(--lima);
     color: var(--jet);
+}
+
+@media (max-width: 600px) {
+    html{
+        height: 120vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .main{
+        width: 90%;
+    }
+
+    .main .description{
+        font-size: 16px;
+    }
 }
