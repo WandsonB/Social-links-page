@@ -112,6 +112,8 @@ body{
     font-size: large;
     font-weight: 700;
     text-decoration: none;
+    cursor: pointer;
+
 }
 
 .linksButtons .links:hover{
